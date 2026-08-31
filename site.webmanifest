@@ -1,0 +1,19 @@
+{
+  "name": "竹あかり制作所",
+  "short_name": "竹あかり",
+  "icons": [
+    {
+      "src": "img/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0b0e10",
+  "background_color": "#0b0e10",
+  "display": "standalone"
+}

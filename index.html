@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>竹あかり制作所｜Bamboo Light Art</title>
+  <meta name="description" content="秩父市の天然竹から生まれる、一点ものの灯り。住まい・店舗・宿・空間演出まで用途に合わせて制作します。" />
+
+  <!-- Favicons（あなたの img/ 内の実ファイルに合わせて） -->
+
+  <meta name="theme-color" content="#0b0e10">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="img/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="img/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="img/favicon-512.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <style>
+    .purchase-actions.vertical {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .purchase-note {
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.7;
+      color: #6f6a62;
+    }
+    .btn-buy small,
+    .btn-consult small {
+      display: block;
+      margin-top: 4px;
+      font-size: 12px;
+      line-height: 1.5;
+      opacity: .92;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="竹あかり制作所 トップへ">
+        <img class="brand__logo" src="img/logo-mark.png" alt="竹あかり制作所" width="56" height="56" loading="eager" decoding="async">
+        <span class="brand__text">
+          <span class="brand__name">竹あかり制作所</span>
+          <span class="brand__sub">Bamboo Light Art</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#lineup">作品</a>
+        <a href="#craft">制作</a>
+        <a href="#custom">オーダー</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header__cta">
+        <a class="btn btn--ghost" href="#contact">お問い合わせ</a>
+        <a class="btn btn--solid" href="#lineup">作品を見る</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="pill">Handcrafted / Made in Japan</p>
+
+          <h1 class="hero__title">静けさを灯す、竹の光。</h1>
+
+          <p class="hero__lead">
+            <strong>秩父市の天然竹</strong>から生まれる、一点ものの灯り。<br>
+            住まい・店舗・宿・空間演出まで、用途に合わせて制作します。
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--solid" href="#lineup">作品ラインナップ</a>
+            <a class="btn btn--ghost" href="#contact">まず相談する</a>
+          </div>
+
+          <dl class="stats" aria-label="Highlights">
+            <div class="stats__item"><dt>素材</dt><dd>秩父の天然竹</dd></div>
+            <div class="stats__item"><dt>制作</dt><dd>完全手作業</dd></div>
+            <div class="stats__item"><dt>用途</dt><dd>屋内 / 半屋外相談</dd></div>
+          </dl>
+
+          <p class="note">※制作数に限りがあるため、在庫・納期は時期により変動します。</p>
+        </div>
+
+        <div class="hero__media">
+          <img src="img/sampleimage1.png" alt="竹あかりの灯り" loading="lazy">
+          <div class="hero__fade" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lineup -->
+    <section class="section" id="lineup">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2 class="h2">作品ラインナップ</h2>
+            <p class="muted">カードをクリックすると、作品写真（3枚）がスライド表示されます</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <!-- Standard -->
+          <article class="card" data-gallery="standard">
+            <div class="card__img"><img src="img/sampleimage1.png" alt="夜桜灯の作品イメージ" loading="lazy" decoding="async"></div>
+            <div class="card__body">
+              <div class="card__top">
+                <h3>夜桜灯</h3>
+                <span class="chip">室内・ギフト</span>
+              </div>
+              <p class="muted">シンプルな幾何学模様。初めての竹あかりに。</p>
+
+              <div class="card__meta">
+                <span class="price">¥8,000(税込み）</span>
+                <span class="chip">在庫品</span>
+              </div>
+
+              <div class="purchase-actions vertical">
+                <a class="btn-buy" href="buy-standard.html">
+                  Stripeで注文手続きへ
+                  <small>在庫あり・3営業日以内発送予定</small>
+                </a>
+                <p class="purchase-note">安全なStripe決済ページへ移動します。クレジットカード対応・ご注文後に確認メールをお送りします。</p>
+              </div>
+
+              <p class="note" style="margin-top:10px">※カードの空白部分をクリックすると写真スライドが開きます。</p>
+            </div>
+          </article>
+
+          <!-- Signature -->
+          <article class="card" data-gallery="signature">
+            <div class="card__img"><img src="img/sampleimage1.png" alt="華波灯の作品イメージ" loading="lazy" decoding="async"></div>
+            <div class="card__body">
+              <div class="card__top">
+                <h3>華波灯</h3>
+                <span class="chip">店舗・宿</span>
+              </div>
+              <p class="muted">自然・和文様モチーフ。空間の“格”を上げる灯り。</p>
+
+              <div class="card__meta">
+                <span class="price">¥15,000(税込み)</span>
+                <span class="chip">在庫品</span>
+              </div>
+
+              <div class="purchase-actions vertical">
+                <a class="btn-buy" href="buy-signature.html">
+                  Stripeで注文手続きへ
+                  <small>在庫あり・3営業日以内発送予定</small>
+                </a>
+                <p class="purchase-note">作品内容をご確認後、Stripe決済へ進む想定です。納期はご注文内容により変動します。</p>
+              </div>
+
+              <p class="note" style="margin-top:10px">※カードの空白部分をクリックすると写真スライドが開きます</p>
+            </div>
+          </article>
+
+          <!-- オーダーメイド -->
+          <article class="card" data-gallery="custom">
+            <div class="card__img"><img src="img/sampleimage1.png" alt="オーダーメイドの作品イメージ" loading="lazy" decoding="async"></div>
+            <div class="card__body">
+              <div class="card__top">
+                <h3>オーダーメイド</h3>
+                <span class="chip">空間演出</span>
+              </div>
+              <p class="muted">イベント・神社仏閣・観光地向け。設計から提案。</p>
+
+              <div class="card__meta">
+                <span class="price">¥150,000〜</span>
+                <span class="chip">要件定義</span>
+              </div>
+
+              <div class="purchase-actions vertical">
+                <a class="btn-consult" href="#contact">
+                  導入を相談する
+                  <small>設置場所・規模・ご予算をヒアリング</small>
+                </a>
+                <p class="purchase-note">大型案件・空間演出は、内容確認後にお見積もりをご案内します。</p>
+              </div>
+
+              <p class="note" style="margin-top:10px">※カードの空白部分をクリックすると写真スライドが開きます</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="cta">
+          <div class="cta__box">
+            <div>
+              <p class="cta__title">法人・店舗導入の相談もOK</p>
+              <p class="muted">設置場所・雰囲気・予算を聞いて、最短で提案します。</p>
+            </div>
+            <a class="btn btn--solid" href="#contact">導入相談をする</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Craft -->
+    <section class="section section--alt" id="craft">
+      <div class="container split">
+        <div class="split__copy">
+          <h2 class="h2">制作について</h2>
+          <p class="muted">
+            竹を選ぶところから、穴あけ、仕上げ、照明設計まで全て手作業。大量生産は行っていません。
+          </p>
+
+          <!-- ✅ 秩父ストーリー追加 -->
+          <p class="muted">
+            私たちは<strong>埼玉県・秩父市の天然竹</strong>を主に使用し、一本一本の表情（色味・節・厚み）を見て選別しています。<br>
+            放置竹林の課題と向き合いながら、竹に新しい価値を与え、暮らしの中で長く愛される灯りへ仕立てます。
+          </p>
+
+          <ul class="list">
+            <li>竹の乾燥・割れ対策を行い、長く使える状態に</li>
+            <li>LED（推奨）で安全・扱いやすく</li>
+            <li>半屋外設置は用途により提案可能</li>
+          </ul>
+        </div>
+
+        <div class="split__media">
+          <img src="img/sampleimage1.png" alt="制作工程のイメージ" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- Order -->
+    <section class="section" id="custom">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2 class="h2">オーダーの流れ</h2>
+            <p class="muted">最短で迷わず決められる導線</p>
+          </div>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">1</span>
+            <div>
+              <h3>用途・サイズ相談</h3>
+              <p class="muted">設置場所／雰囲気／予算を共有してください。</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__num">2</span>
+            <div>
+              <h3>提案・お見積もり</h3>
+              <p class="muted">デザイン案と納期を提示します。</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__num">3</span>
+            <div>
+              <h3>制作（1〜2週間〜）</h3>
+              <p class="muted">内容により制作期間は変動します。</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__num">4</span>
+            <div>
+              <h3>発送／設置</h3>
+              <p class="muted">法人・現地設置も対応可能（要相談）。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FAQ（差し替え完了版） -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2 class="h2">FAQ</h2>
+            <p class="muted">購入前の不安をここで解消</p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary>Q. 注文してからどれくらいで届きますか？</summary>
+            <p class="muted">
+              A. 通常、ご注文から<strong>3〜5営業日</strong>以内に発送いたします。<br>
+              ※受注生産品につきましては、制作に<strong>1〜2週間</strong>ほどお時間をいただく場合がございます。<br>
+              お急ぎの場合は、ご注文前にお問い合わせフォームよりご相談ください。
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Q. 竹は割れたり、カビが生えたりしませんか？</summary>
+            <p class="muted">
+              A. 防腐・防カビ処理を施した竹を使用しておりますが、天然素材のため、極度の乾燥によるヒビ割れや、湿気によるカビが発生する場合がございます。<br>
+              エアコンの風が直撃する場所や湿気の多い場所を避けて飾っていただくと、長く美しい状態を保てます。
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Q. 商品写真と全く同じものが届きますか？</summary>
+            <p class="muted">
+              A. 一つひとつ天然の竹を使用し手作りで制作しているため、竹の太さ、色味、節の位置が写真とは多少異なる場合がございます。<br>
+              世界に一つだけの竹の表情としてお楽しみください。
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Q. 屋外（玄関先や庭）に置いても大丈夫ですか？</summary>
+            <p class="muted">
+              A. 基本的には<strong>屋内でのご使用を推奨</strong>しております。雨や直射日光は劣化を早める原因となります。<br>
+              屋根のある玄関ポーチなど<strong>半屋外</strong>での設置をご希望の場合は、使用環境に合わせてご提案しますので事前にご相談ください。
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Q. 電球が切れたら交換できますか？</summary>
+            <p class="muted">
+              A. はい、市販のLED電球と交換可能です。<br>
+              口金サイズは<strong>E17（作品により異なる場合があります）</strong>をご案内します。<br>
+              竹への熱影響を防ぐため、LED電球のご利用をお願いいたします。
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Q. 普段のお掃除はどうすればいいですか？</summary>
+            <p class="muted">
+              A. 乾いた布やハタキなどで優しくホコリを払ってください。<br>
+              汚れが目立つ場合は、固く絞った布で拭き取り、その後しっかりと乾燥させてください（<strong>水気はカビの原因</strong>となりますのでご注意ください）。
+            </p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Q. プレゼント用にラッピングはできますか？</summary>
+            <p class="muted">
+              A. はい、承っております。<br>
+              カート画面に進んだ後、備考欄にて「<strong>ラッピング希望</strong>」とご記入ください。<br>
+              金額のわかる納品書などは同梱せずに発送いたします。
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__copy">
+          <h2 class="h2">お問い合わせ</h2>
+          <p class="muted">
+            在庫確認・カスタム制作・法人導入の相談はこちら。<br>
+            2〜3営業日以内に返信します。
+          </p>
+          <div class="contact__badges">
+            <span class="chip">法人導入</span>
+            <span class="chip">カスタム制作</span>
+            <span class="chip">ギフト</span>
+          </div>
+        </div>
+
+        <form class="form" action="https://formspree.io/f/xaqbedwl" method="POST">
+          <input type="hidden" name="_subject" value="【竹あかり】お問い合わせ">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="form_type" value="general_inquiry">
+
+          <label class="field">
+            <span>お名前</span>
+            <input type="text" name="name" placeholder="山田 太郎" required>
+          </label>
+
+          <label class="field">
+            <span>メール</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+
+          <label class="field">
+            <span>用途</span>
+            <select name="use">
+              <option>夜桜灯購入</option>
+              <option>華波灯購入</option>
+              <option>オーダーメイド相談</option>
+              <option>その他</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>内容</span>
+            <textarea name="message" rows="5" placeholder="サイズ、設置場所、希望の雰囲気、予算など"></textarea>
+          </label>
+
+          <button class="btn btn--solid" type="submit">送信する</button>
+          <p class="note">※内容により、お受けできない場合があります。</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted">© 竹あかり制作所. Made in Japan.</p>
+      <div class="footer__links">
+        <a href="tokusho.html">特定商取引法</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="#contact">お問い合わせ</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Lineup Gallery Modal（3枚スライド） ===== -->
+  <div class="lg-modal" id="lgModal" aria-hidden="true">
+    <div class="lg-backdrop" data-lg-close></div>
+
+    <div class="lg-panel" role="dialog" aria-modal="true" aria-label="作品写真">
+      <button class="lg-close" type="button" data-lg-close aria-label="閉じる">×</button>
+
+      <div class="lg-top">
+        <div class="lg-title" id="lgTitle">Gallery</div>
+        <div class="lg-counter" id="lgCounter">1 / 3</div>
+      </div>
+
+      <div class="lg-stage" id="lgStage">
+        <img class="lg-img" id="lgImg" alt="" src="img/sampleimage1.png">
+      </div>
+
+      <div class="lg-controls">
+        <button class="lg-nav" type="button" id="lgPrev" aria-label="前へ">‹</button>
+        <div class="lg-dots" id="lgDots" aria-label="スライド位置"></div>
+        <button class="lg-nav" type="button" id="lgNext" aria-label="次へ">›</button>
+      </div>
+
+      <!-- ✅ Concept（クリック後：写真の下に表示） -->
+      <div class="lg-info" id="lgInfo" aria-live="polite">
+        <div class="lg-info__copy">
+          <div class="lg-info__kicker">CONCEPT</div>
+          <div class="lg-info__lead" id="lgConceptLead">—</div>
+          <ul class="lg-info__list" id="lgConceptList"></ul>
+          <p class="lg-info__note" id="lgConceptNote">※写真は制作例です。天然素材のため個体差があります。</p>
+        </div>
+        <div class="lg-info__cta">
+          <a class="btn btn--solid" id="lgCta" href="#">購入 / 相談へ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (function(){
+    // 画像はこの名前で img/ に置いてください（後で差し替えOK）
+    const galleries = {
+      standard: {
+        title: "夜桜灯",
+        images: ["img/sampleimage1.png","img/sampleimage1.png","img/sampleimage1.png"],
+        concept: {
+          lead: "初めての竹あかりにちょうどいい、やさしい光と和柄の一点物。",
+          bullets: [
+            "室内向け / ギフトにもおすすめ",
+            "在庫がある場合は3〜5営業日以内に発送",
+            "LED推奨で安全に楽しめます"
+          ],
+          ctaLabel: "夜桜灯を購入する",
+          ctaHref: "buy-standard.html",
+          note: "※写真は制作例です。竹の表情（色味・節）は一点ごとに異なります。"
+        }
+      },
+      signature: {
+        title: "華波灯",
+        images: ["img/sampleimage1.png","img/sampleimage1.png","img/sampleimage1.png"],
+        concept: {
+          lead: "店舗・宿の空間を“格上げ”する、存在感のある上質仕様。",
+          bullets: [
+            "受注生産：ご希望を伺って制作します",
+            "意匠・サイズ相談OK（和文様 / モチーフ対応）",
+            "納期目安：1〜2週間〜（内容により変動）"
+          ],
+          ctaLabel: "華波灯を購入する",
+          ctaHref: "buy-signature.html",
+          note: "※写真は制作例です。完成イメージに合わせて制作します。"
+        }
+      },
+      custom: {
+        title: "オーダーメイド",
+        images: ["img/sampleimage1.png","img/sampleimage1.png","img/sampleimage1.png"],
+        concept: {
+          lead: "神社仏閣・イベント・商業空間へ。設計から提案するオーダー制作。",
+          bullets: [
+            "現地設置・大判制作も対応（要相談）",
+            "雰囲気・動線・予算に合わせて提案",
+            "まずは用途と設置場所をヒアリングします"
+          ],
+          ctaLabel: "オーダーメイドを相談する",
+          ctaHref: "#contact",
+          note: "※内容によりお受けできない場合があります。まずは要件をお聞かせください。"
+        }
+      }
+    };
+
+    const modal   = document.getElementById("lgModal");
+    const imgEl   = document.getElementById("lgImg");
+    const titleEl = document.getElementById("lgTitle");
+    const counter = document.getElementById("lgCounter");
+    const dotsBox = document.getElementById("lgDots");
+    const prevBtn = document.getElementById("lgPrev");
+    const nextBtn = document.getElementById("lgNext");
+    const stage   = document.getElementById("lgStage");
+
+    // concept
+    const conceptLead = document.getElementById("lgConceptLead");
+    const conceptList = document.getElementById("lgConceptList");
+    const conceptNote = document.getElementById("lgConceptNote");
+    const ctaEl       = document.getElementById("lgCta");
+
+    let currentKey = null;
+    let index = 0;
+
+    function openModal(key, startIndex=0){
+      if(!galleries[key]) return;
+      currentKey = key;
+      index = startIndex;
+
+      titleEl.textContent = galleries[key].title;
+      renderConcept();
+      buildDots();
+      render();
+
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden","false");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeModal(){
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden","true");
+      imgEl.src = "";
+      document.body.style.overflow = "";
+    }
+
+    function renderConcept(){
+      const g = galleries[currentKey];
+      if(!g || !g.concept) return;
+      const c = g.concept;
+
+      // lead
+      if(conceptLead) conceptLead.textContent = c.lead || "";
+
+      // bullets
+      if(conceptList){
+        conceptList.innerHTML = "";
+        (c.bullets || []).forEach(t=>{
+          const li = document.createElement("li");
+          li.textContent = t;
+          conceptList.appendChild(li);
+        });
+      }
+
+      // note
+      if(conceptNote) conceptNote.textContent = c.note || "";
+
+      // CTA
+      if(ctaEl){
+        ctaEl.textContent = c.ctaLabel || "購入 / 相談へ";
+        ctaEl.setAttribute("href", c.ctaHref || "#");
+      }
+    }
+
+    function render(){
+      const list = galleries[currentKey].images;
+      const total = list.length;
+      const src = list[index];
+
+      imgEl.src = src;
+      imgEl.alt = galleries[currentKey].title + " 写真 " + (index+1);
+      counter.textContent = (index+1) + " / " + total;
+
+      [...dotsBox.children].forEach((d,i)=> d.classList.toggle("is-active", i===index));
+    }
+
+    function buildDots(){
+      dotsBox.innerHTML = "";
+      const total = galleries[currentKey].images.length;
+      for(let i=0;i<total;i++){
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "lg-dot" + (i===index ? " is-active" : "");
+        b.setAttribute("aria-label", (i+1) + "枚目へ");
+        b.addEventListener("click", ()=>{ index=i; render(); });
+        dotsBox.appendChild(b);
+      }
+    }
+
+    function prev(){
+      const total = galleries[currentKey].images.length;
+      index = (index - 1 + total) % total;
+      render();
+    }
+    function next(){
+      const total = galleries[currentKey].images.length;
+      index = (index + 1) % total;
+      render();
+    }
+
+    // カードクリックで開く（a/button等を押した場合は開かない＝購入導線を守る）
+    document.querySelectorAll("[data-gallery]").forEach(card=>{
+      card.style.cursor = "pointer";
+      card.addEventListener("click", (e)=>{
+        if(e.target.closest("a, button, input, textarea, select, summary")) return;
+        openModal(card.getAttribute("data-gallery"), 0);
+      });
+    });
+
+    // close
+    modal.addEventListener("click", (e)=>{
+      if(e.target.hasAttribute("data-lg-close")) closeModal();
+    });
+    prevBtn.addEventListener("click", prev);
+    nextBtn.addEventListener("click", next);
+
+    // keyboard
+    window.addEventListener("keydown", (e)=>{
+      if(!modal.classList.contains("is-open")) return;
+      if(e.key === "Escape") closeModal();
+      if(e.key === "ArrowLeft") prev();
+      if(e.key === "ArrowRight") next();
+    });
+
+    // swipe
+    let startX = 0;
+    stage.addEventListener("touchstart", (e)=>{ startX = e.touches[0].clientX; }, {passive:true});
+    stage.addEventListener("touchend", (e)=>{
+      const dx = e.changedTouches[0].clientX - startX;
+      if(Math.abs(dx) < 40) return;
+      if(dx > 0) prev(); else next();
+    }, {passive:true});
+  })();
+  </script>
+</body>
+</html>
