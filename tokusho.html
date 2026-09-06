@@ -7,48 +7,12 @@
   <meta name="description" content="竹あかり制作所の特定商取引法に基づく表記（販売事業者情報、支払い方法、返品、引渡時期など）を掲載しています。" />
 
   <!-- Favicon（あなたのサイトで使っているもの） -->
-  <meta name="theme-color" content="#0b0e10">
+  <meta name="theme-color" content="#f7f2e7">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-  <style>
-    /* このページだけの補助（既存CSSがあれば不要） */
-    .legal-wrap { max-width: 920px; }
-    .legal-table{
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 16px;
-      overflow: hidden;
-      border-radius: 18px;
-      border: 1px solid rgba(255,255,255,.08);
-      background: rgba(255,255,255,.03);
-    }
-    .legal-table th,
-    .legal-table td{
-      padding: 14px 16px;
-      vertical-align: top;
-      border-bottom: 1px solid rgba(255,255,255,.08);
-    }
-    .legal-table th{
-      width: 28%;
-      font-weight: 700;
-      color: rgba(255,255,255,.9);
-      background: rgba(255,255,255,.02);
-      white-space: nowrap;
-    }
-    .legal-table td{
-      color: rgba(255,255,255,.78);
-      line-height: 1.75;
-    }
-    .legal-table tr:last-child th,
-    .legal-table tr:last-child td{ border-bottom: none; }
-    .legal-note{
-      margin-top: 14px;
-      color: rgba(255,255,255,.65);
-      font-size: .95em;
-      line-height: 1.8;
-    }
-    .backlink{ display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; }
-  </style>
   <link rel="icon" href="img/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
@@ -68,20 +32,19 @@
         <img class="brand__logo" src="img/logo-mark.png" alt="竹あかり制作所" width="56" height="56" loading="eager" decoding="async">
         <span class="brand__text">
           <span class="brand__name">竹あかり制作所</span>
-          <span class="brand__sub">Bamboo Light Art</span>
+          <span class="brand__sub">Bespoke Bamboo Light Atelier</span>
         </span>
       </a>
 
       <nav class="nav" aria-label="Primary">
-        <a href="index.html#lineup">作品</a>
+        <a href="index.html#scenes">実績</a>
         <a href="index.html#craft">制作</a>
-        <a href="index.html#custom">オーダー</a>
+        <a href="index.html#order">オーダーの流れ</a>
         <a href="index.html#faq">FAQ</a>
       </nav>
 
       <div class="header__cta">
-        <a class="btn btn--ghost" href="index.html#contact">お問い合わせ</a>
-        <a class="btn btn--solid" href="index.html#lineup">作品を見る</a>
+        <a class="btn btn--solid" href="index.html#contact">ご相談する</a>
       </div>
     </div>
   </header>
@@ -91,8 +54,9 @@
       <div class="container legal-wrap">
         <div class="section__head">
           <div>
+            <p class="eyebrow">Legal</p>
             <h1 class="h2">特定商取引法に基づく表記</h1>
-            <p class="muted">本ページは、通信販売に関する法令に基づき、必要事項を掲載しています。</p>
+            <p class="muted" style="margin-top:16px">本ページは、通信販売に関する法令に基づき、必要事項を掲載しています。</p>
           </div>
         </div>
 
@@ -125,8 +89,8 @@
           <tr>
             <th>販売価格</th>
             <td>
-              各商品ページまたはお見積もりにて表示します（表示価格は税込）。<br>
-              <span class="muted">※オーダー制作は仕様により価格が変動します。</span>
+              完全受注生産のため、個別のお見積もりにてご案内します（表示価格は税込）。<br>
+              <span class="muted">※規模・意匠・設置方法により価格が変動します。</span>
             </td>
           </tr>
           <tr>
@@ -148,16 +112,16 @@
           <tr>
             <th>お支払い時期</th>
             <td>
-              ・既製品：ご注文確定時にお支払い<br>
-              ・オーダー制作：制作開始前に[全額 / 50%前金]、残金は[発送前] など
+              制作開始前に[全額 / 50%前金]、残金は[発送・設置前] など<br>
+              <span class="muted">※お見積もり確定時にご案内します。</span>
             </td>
           </tr>
 
           <tr>
             <th>商品の引渡時期</th>
             <td>
-              既製品：入金確認後、[2〜5営業日]以内に発送します。<br>
-              オーダー制作：ご注文確定後、通常[2〜4週間]程度で制作・発送します（繁忙期は変動）。
+              ご発注確定後、内容に応じて制作・発送（または設置）いたします。<br>
+              目安の納期は、お見積もりの際に個別にご案内します。
             </td>
           </tr>
 
@@ -172,12 +136,8 @@
           <tr>
             <th>返品・交換・キャンセル</th>
             <td>
-              ■既製品<br>
-              初期不良・破損がある場合、商品到着後[7日以内]にご連絡ください。交換または返金にて対応します。<br><br>
-
-              ■オーダー制作（受注生産）<br>
-              受注生産の性質上、原則としてご注文確定後のキャンセル・返品はお受けできません。<br>
-              ただし、当方の瑕疵（初期不良・破損）がある場合は上記に準じて対応します。
+              完全受注生産（オーダーメイド）の性質上、原則としてご発注確定後のキャンセル・返品はお受けできません。<br>
+              ただし、当方の瑕疵（初期不良・破損）がある場合は、商品到着後[7日以内]にご連絡いただければ、交換または補修にて対応します。
             </td>
           </tr>
 
@@ -211,7 +171,7 @@
           ※法令要件（住所・電話番号など）は未記載だとトラブルになりやすいので、必ず最新の情報へ更新してください。
         </p>
 
-        <a class="backlink link" href="index.html#top">← トップへ戻る</a>
+        <a class="backlink" href="index.html#top">← トップへ戻る</a>
       </div>
     </section>
   </main>
