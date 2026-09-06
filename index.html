@@ -6,9 +6,10 @@
   <title>竹あかり制作所｜Bamboo Light Art</title>
   <meta name="description" content="秩父市の天然竹から生まれる、一点ものの灯り。住まい・店舗・宿・空間演出まで用途に合わせて制作します。" />
 
-  <!-- Favicons（あなたの img/ 内の実ファイルに合わせて） -->
-
   <meta name="theme-color" content="#0b0e10">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="img/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
@@ -19,29 +20,6 @@
   <link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
   <link rel="icon" type="image/png" sizes="512x512" href="img/favicon-512.png">
   <link rel="manifest" href="site.webmanifest">
-
-  <style>
-    .purchase-actions.vertical {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-    .purchase-note {
-      margin: 0;
-      font-size: 12px;
-      line-height: 1.7;
-      color: #6f6a62;
-    }
-    .btn-buy small,
-    .btn-consult small {
-      display: block;
-      margin-top: 4px;
-      font-size: 12px;
-      line-height: 1.5;
-      opacity: .92;
-    }
-  </style>
-
 </head>
 
 <body>
@@ -77,29 +55,29 @@
         <div class="hero__copy">
           <p class="pill">Handcrafted / Made in Japan</p>
 
-          <h1 class="hero__title">静けさを灯す、竹の光。</h1>
+          <h1 class="hero__title">竹の内から灯る、<br>静けさという明かり。</h1>
 
           <p class="hero__lead">
-            <strong>秩父市の天然竹</strong>から生まれる、一点ものの灯り。<br>
-            住まい・店舗・宿・空間演出まで、用途に合わせて制作します。
+            <strong>埼玉県・秩父市の天然竹</strong>を一本一本選び、手作業で灯りへと仕立てています。<br>
+            住まいの一角から店舗・宿の空間演出まで、灯す場所に合わせてかたちにします。
           </p>
 
           <div class="hero__actions">
-            <a class="btn btn--solid" href="#lineup">作品ラインナップ</a>
-            <a class="btn btn--ghost" href="#contact">まず相談する</a>
+            <a class="btn btn--solid" href="#lineup">作品ラインナップを見る</a>
+            <a class="btn btn--ghost" href="#contact">まずは相談する</a>
           </div>
 
           <dl class="stats" aria-label="Highlights">
             <div class="stats__item"><dt>素材</dt><dd>秩父の天然竹</dd></div>
-            <div class="stats__item"><dt>制作</dt><dd>完全手作業</dd></div>
-            <div class="stats__item"><dt>用途</dt><dd>屋内 / 半屋外相談</dd></div>
+            <div class="stats__item"><dt>制作</dt><dd>すべて手作業</dd></div>
+            <div class="stats__item"><dt>設置</dt><dd>屋内 / 半屋外は要相談</dd></div>
           </dl>
 
-          <p class="note">※制作数に限りがあるため、在庫・納期は時期により変動します。</p>
+          <p class="note">※一点ずつ手作りのため制作数に限りがあります。在庫・納期は時期により変動します。</p>
         </div>
 
         <div class="hero__media">
-          <img src="img/sampleimage1.png" alt="竹あかりの灯り" loading="lazy">
+          <img src="img/sampleimage1.png" alt="竹あかりの灯り" loading="eager">
           <div class="hero__fade" aria-hidden="true"></div>
         </div>
       </div>
@@ -110,8 +88,9 @@
       <div class="container">
         <div class="section__head">
           <div>
+            <p class="kicker">Lineup</p>
             <h2 class="h2">作品ラインナップ</h2>
-            <p class="muted">カードをクリックすると、作品写真（3枚）がスライド表示されます</p>
+            <p class="muted">写真をクリックすると、作品ごとのギャラリー（3枚）をご覧いただけます。</p>
           </div>
         </div>
 
@@ -124,22 +103,22 @@
                 <h3>夜桜灯</h3>
                 <span class="chip">室内・ギフト</span>
               </div>
-              <p class="muted">シンプルな幾何学模様。初めての竹あかりに。</p>
+              <p>シンプルな幾何学模様の透かし彫り。はじめての竹あかりに選ばれています。</p>
 
               <div class="card__meta">
-                <span class="price">¥8,000(税込み）</span>
-                <span class="chip">在庫品</span>
+                <span class="price">¥8,000（税込）</span>
+                <span class="chip">在庫あり</span>
               </div>
 
               <div class="purchase-actions vertical">
-                <a class="btn-buy" href="buy-standard.html">
-                  Stripeで注文手続きへ
+                <a class="btn-buy" href="#contact" data-use="夜桜灯購入">
+                  夜桜灯を注文する
                   <small>在庫あり・3営業日以内発送予定</small>
                 </a>
-                <p class="purchase-note">安全なStripe決済ページへ移動します。クレジットカード対応・ご注文後に確認メールをお送りします。</p>
+                <p class="purchase-note">お問い合わせフォームから承ります。内容確認後、お支払い方法をご案内します。</p>
               </div>
 
-              <p class="note" style="margin-top:10px">※カードの空白部分をクリックすると写真スライドが開きます。</p>
+              <p class="note">※カードの空いている部分をクリックすると写真ギャラリーが開きます。</p>
             </div>
           </article>
 
@@ -151,22 +130,22 @@
                 <h3>華波灯</h3>
                 <span class="chip">店舗・宿</span>
               </div>
-              <p class="muted">自然・和文様モチーフ。空間の“格”を上げる灯り。</p>
+              <p>自然・和文様をモチーフにした上質仕様。空間の“格”を上げる一台です。</p>
 
               <div class="card__meta">
-                <span class="price">¥15,000(税込み)</span>
-                <span class="chip">在庫品</span>
+                <span class="price">¥15,000（税込）</span>
+                <span class="chip">受注生産</span>
               </div>
 
               <div class="purchase-actions vertical">
-                <a class="btn-buy" href="buy-signature.html">
-                  Stripeで注文手続きへ
-                  <small>在庫あり・3営業日以内発送予定</small>
+                <a class="btn-buy" href="#contact" data-use="華波灯購入">
+                  華波灯を注文する
+                  <small>受注生産・納期目安1〜2週間〜</small>
                 </a>
-                <p class="purchase-note">作品内容をご確認後、Stripe決済へ進む想定です。納期はご注文内容により変動します。</p>
+                <p class="purchase-note">意匠・サイズのご希望を伺ってから制作します。まずはお気軽にご相談ください。</p>
               </div>
 
-              <p class="note" style="margin-top:10px">※カードの空白部分をクリックすると写真スライドが開きます</p>
+              <p class="note">※カードの空いている部分をクリックすると写真ギャラリーが開きます。</p>
             </div>
           </article>
 
@@ -178,22 +157,22 @@
                 <h3>オーダーメイド</h3>
                 <span class="chip">空間演出</span>
               </div>
-              <p class="muted">イベント・神社仏閣・観光地向け。設計から提案。</p>
+              <p>イベント・神社仏閣・観光地向け。設置場所に合わせて設計からご提案します。</p>
 
               <div class="card__meta">
                 <span class="price">¥150,000〜</span>
-                <span class="chip">要件定義</span>
+                <span class="chip">要件定義から</span>
               </div>
 
               <div class="purchase-actions vertical">
-                <a class="btn-consult" href="#contact">
+                <a class="btn-consult" href="#contact" data-use="オーダーメイド相談">
                   導入を相談する
                   <small>設置場所・規模・ご予算をヒアリング</small>
                 </a>
                 <p class="purchase-note">大型案件・空間演出は、内容確認後にお見積もりをご案内します。</p>
               </div>
 
-              <p class="note" style="margin-top:10px">※カードの空白部分をクリックすると写真スライドが開きます</p>
+              <p class="note">※カードの空いている部分をクリックすると写真ギャラリーが開きます。</p>
             </div>
           </article>
         </div>
@@ -201,8 +180,8 @@
         <div class="cta">
           <div class="cta__box">
             <div>
-              <p class="cta__title">法人・店舗導入の相談もOK</p>
-              <p class="muted">設置場所・雰囲気・予算を聞いて、最短で提案します。</p>
+              <p class="cta__title">法人・店舗導入のご相談も承ります</p>
+              <p class="muted">設置場所・雰囲気・ご予算をお聞かせいただければ、最短でご提案します。</p>
             </div>
             <a class="btn btn--solid" href="#contact">導入相談をする</a>
           </div>
@@ -214,21 +193,21 @@
     <section class="section section--alt" id="craft">
       <div class="container split">
         <div class="split__copy">
+          <p class="kicker">Craft</p>
           <h2 class="h2">制作について</h2>
           <p class="muted">
-            竹を選ぶところから、穴あけ、仕上げ、照明設計まで全て手作業。大量生産は行っていません。
+            竹を選ぶところから、穴あけ、仕上げ、照明設計まで、すべて手作業で行っています。大量生産はしていません。
           </p>
 
-          <!-- ✅ 秩父ストーリー追加 -->
           <p class="muted">
-            私たちは<strong>埼玉県・秩父市の天然竹</strong>を主に使用し、一本一本の表情（色味・節・厚み）を見て選別しています。<br>
-            放置竹林の課題と向き合いながら、竹に新しい価値を与え、暮らしの中で長く愛される灯りへ仕立てます。
+            使用しているのは、主に<strong>埼玉県・秩父市の天然竹</strong>。一本ごとの色味・節・厚みを見ながら選別しています。<br>
+            放置竹林という地域の課題と向き合いながら、竹に新しい役割を与え、暮らしの中で長く愛される灯りに仕立てています。
           </p>
 
           <ul class="list">
-            <li>竹の乾燥・割れ対策を行い、長く使える状態に</li>
-            <li>LED（推奨）で安全・扱いやすく</li>
-            <li>半屋外設置は用途により提案可能</li>
+            <li>竹の乾燥・割れ対策を行い、長くお使いいただける状態に仕上げます</li>
+            <li>光源はLED（推奨）で、安全かつ扱いやすく</li>
+            <li>半屋外での設置も、用途に応じてご提案可能です</li>
           </ul>
         </div>
 
@@ -243,8 +222,9 @@
       <div class="container">
         <div class="section__head">
           <div>
+            <p class="kicker">Order Flow</p>
             <h2 class="h2">オーダーの流れ</h2>
-            <p class="muted">最短で迷わず決められる導線</p>
+            <p class="muted">迷わず・最短で決められる4ステップです。</p>
           </div>
         </div>
 
@@ -253,100 +233,101 @@
             <span class="step__num">1</span>
             <div>
               <h3>用途・サイズ相談</h3>
-              <p class="muted">設置場所／雰囲気／予算を共有してください。</p>
+              <p class="muted">設置場所／雰囲気／ご予算をお聞かせください。</p>
             </div>
           </li>
           <li class="step">
             <span class="step__num">2</span>
             <div>
               <h3>提案・お見積もり</h3>
-              <p class="muted">デザイン案と納期を提示します。</p>
+              <p class="muted">デザイン案と納期の目安をご提示します。</p>
             </div>
           </li>
           <li class="step">
             <span class="step__num">3</span>
             <div>
-              <h3>制作（1〜2週間〜）</h3>
+              <h3>制作（目安1〜2週間〜）</h3>
               <p class="muted">内容により制作期間は変動します。</p>
             </div>
           </li>
           <li class="step">
             <span class="step__num">4</span>
             <div>
-              <h3>発送／設置</h3>
-              <p class="muted">法人・現地設置も対応可能（要相談）。</p>
+              <h3>発送 / 設置</h3>
+              <p class="muted">法人・現地設置も対応可能です（要相談）。</p>
             </div>
           </li>
         </ol>
       </div>
     </section>
 
-    <!-- FAQ（差し替え完了版） -->
+    <!-- FAQ -->
     <section class="section section--alt" id="faq">
       <div class="container">
         <div class="section__head">
           <div>
-            <h2 class="h2">FAQ</h2>
-            <p class="muted">購入前の不安をここで解消</p>
+            <p class="kicker">FAQ</p>
+            <h2 class="h2">よくあるご質問</h2>
+            <p class="muted">ご購入前に気になりやすい点をまとめました。</p>
           </div>
         </div>
 
         <div class="faq">
           <details class="faq__item">
             <summary>Q. 注文してからどれくらいで届きますか？</summary>
-            <p class="muted">
-              A. 通常、ご注文から<strong>3〜5営業日</strong>以内に発送いたします。<br>
-              ※受注生産品につきましては、制作に<strong>1〜2週間</strong>ほどお時間をいただく場合がございます。<br>
+            <p>
+              A. 在庫品は、ご注文から<strong>3〜5営業日</strong>以内に発送いたします。<br>
+              受注生産品は、制作に<strong>1〜2週間</strong>ほどお時間をいただく場合があります。<br>
               お急ぎの場合は、ご注文前にお問い合わせフォームよりご相談ください。
             </p>
           </details>
 
           <details class="faq__item">
             <summary>Q. 竹は割れたり、カビが生えたりしませんか？</summary>
-            <p class="muted">
-              A. 防腐・防カビ処理を施した竹を使用しておりますが、天然素材のため、極度の乾燥によるヒビ割れや、湿気によるカビが発生する場合がございます。<br>
-              エアコンの風が直撃する場所や湿気の多い場所を避けて飾っていただくと、長く美しい状態を保てます。
+            <p>
+              A. 防腐・防カビ処理を施した竹を使用していますが、天然素材のため、極度の乾燥によるひび割れや、湿気によるカビが生じる場合があります。<br>
+              エアコンの風が直接当たる場所や、湿気の多い場所を避けて飾っていただくと、長く美しい状態を保てます。
             </p>
           </details>
 
           <details class="faq__item">
             <summary>Q. 商品写真と全く同じものが届きますか？</summary>
-            <p class="muted">
-              A. 一つひとつ天然の竹を使用し手作りで制作しているため、竹の太さ、色味、節の位置が写真とは多少異なる場合がございます。<br>
-              世界に一つだけの竹の表情としてお楽しみください。
+            <p>
+              A. 一つひとつ天然の竹を使い手作りしているため、竹の太さ・色味・節の位置が写真と多少異なる場合があります。<br>
+              世界に一つだけの、その竹だけの表情としてお楽しみください。
             </p>
           </details>
 
           <details class="faq__item">
             <summary>Q. 屋外（玄関先や庭）に置いても大丈夫ですか？</summary>
-            <p class="muted">
-              A. 基本的には<strong>屋内でのご使用を推奨</strong>しております。雨や直射日光は劣化を早める原因となります。<br>
-              屋根のある玄関ポーチなど<strong>半屋外</strong>での設置をご希望の場合は、使用環境に合わせてご提案しますので事前にご相談ください。
+            <p>
+              A. 基本的には<strong>屋内でのご使用</strong>をおすすめしています。雨や直射日光は劣化を早める原因になります。<br>
+              屋根のある玄関ポーチなど<strong>半屋外</strong>への設置をご希望の場合は、使用環境に合わせてご提案しますので事前にご相談ください。
             </p>
           </details>
 
           <details class="faq__item">
             <summary>Q. 電球が切れたら交換できますか？</summary>
-            <p class="muted">
-              A. はい、市販のLED電球と交換可能です。<br>
-              口金サイズは<strong>E17（作品により異なる場合があります）</strong>をご案内します。<br>
-              竹への熱影響を防ぐため、LED電球のご利用をお願いいたします。
+            <p>
+              A. はい、市販のLED電球に交換いただけます。<br>
+              口金サイズは<strong>E17（作品により異なる場合があります）</strong>をご案内しています。<br>
+              竹への熱の影響を防ぐため、LED電球のご利用をお願いしています。
             </p>
           </details>
 
           <details class="faq__item">
-            <summary>Q. 普段のお掃除はどうすればいいですか？</summary>
-            <p class="muted">
-              A. 乾いた布やハタキなどで優しくホコリを払ってください。<br>
-              汚れが目立つ場合は、固く絞った布で拭き取り、その後しっかりと乾燥させてください（<strong>水気はカビの原因</strong>となりますのでご注意ください）。
+            <summary>Q. 普段のお手入れはどうすればいいですか？</summary>
+            <p>
+              A. 乾いた布やハタキなどで、やさしくほこりを払ってください。<br>
+              汚れが気になる場合は固く絞った布で拭き取り、その後しっかり乾燥させてください（<strong>水気はカビの原因</strong>になりますのでご注意ください）。
             </p>
           </details>
 
           <details class="faq__item">
-            <summary>Q. プレゼント用にラッピングはできますか？</summary>
-            <p class="muted">
-              A. はい、承っております。<br>
-              カート画面に進んだ後、備考欄にて「<strong>ラッピング希望</strong>」とご記入ください。<br>
+            <summary>Q. プレゼント用のラッピングはできますか？</summary>
+            <p>
+              A. はい、承っています。<br>
+              お問い合わせ・ご注文の際、内容欄に「<strong>ラッピング希望</strong>」とご記入ください。<br>
               金額のわかる納品書などは同梱せずに発送いたします。
             </p>
           </details>
@@ -358,10 +339,11 @@
     <section class="section" id="contact">
       <div class="container contact">
         <div class="contact__copy">
+          <p class="kicker">Contact</p>
           <h2 class="h2">お問い合わせ</h2>
           <p class="muted">
-            在庫確認・カスタム制作・法人導入の相談はこちら。<br>
-            2〜3営業日以内に返信します。
+            在庫確認・カスタム制作・法人導入のご相談はこちらから。<br>
+            通常2〜3営業日以内にご返信します。
           </p>
           <div class="contact__badges">
             <span class="chip">法人導入</span>
@@ -387,7 +369,7 @@
 
           <label class="field">
             <span>用途</span>
-            <select name="use">
+            <select name="use" id="useSelect">
               <option>夜桜灯購入</option>
               <option>華波灯購入</option>
               <option>オーダーメイド相談</option>
@@ -397,11 +379,11 @@
 
           <label class="field">
             <span>内容</span>
-            <textarea name="message" rows="5" placeholder="サイズ、設置場所、希望の雰囲気、予算など"></textarea>
+            <textarea name="message" rows="5" placeholder="サイズ、設置場所、希望の雰囲気、ご予算など"></textarea>
           </label>
 
           <button class="btn btn--solid" type="submit">送信する</button>
-          <p class="note">※内容により、お受けできない場合があります。</p>
+          <p class="note">※内容により、ご希望に添えない場合があります。</p>
         </form>
       </div>
     </section>
@@ -440,7 +422,6 @@
         <button class="lg-nav" type="button" id="lgNext" aria-label="次へ">›</button>
       </div>
 
-      <!-- ✅ Concept（クリック後：写真の下に表示） -->
       <div class="lg-info" id="lgInfo" aria-live="polite">
         <div class="lg-info__copy">
           <div class="lg-info__kicker">CONCEPT</div>
@@ -449,7 +430,7 @@
           <p class="lg-info__note" id="lgConceptNote">※写真は制作例です。天然素材のため個体差があります。</p>
         </div>
         <div class="lg-info__cta">
-          <a class="btn btn--solid" id="lgCta" href="#">購入 / 相談へ</a>
+          <a class="btn btn--solid" id="lgCta" href="#contact">購入 / 相談へ</a>
         </div>
       </div>
     </div>
@@ -469,8 +450,9 @@
             "在庫がある場合は3〜5営業日以内に発送",
             "LED推奨で安全に楽しめます"
           ],
-          ctaLabel: "夜桜灯を購入する",
-          ctaHref: "buy-standard.html",
+          ctaLabel: "夜桜灯を注文する",
+          ctaHref: "#contact",
+          ctaUse: "夜桜灯購入",
           note: "※写真は制作例です。竹の表情（色味・節）は一点ごとに異なります。"
         }
       },
@@ -484,8 +466,9 @@
             "意匠・サイズ相談OK（和文様 / モチーフ対応）",
             "納期目安：1〜2週間〜（内容により変動）"
           ],
-          ctaLabel: "華波灯を購入する",
-          ctaHref: "buy-signature.html",
+          ctaLabel: "華波灯を注文する",
+          ctaHref: "#contact",
+          ctaUse: "華波灯購入",
           note: "※写真は制作例です。完成イメージに合わせて制作します。"
         }
       },
@@ -496,12 +479,13 @@
           lead: "神社仏閣・イベント・商業空間へ。設計から提案するオーダー制作。",
           bullets: [
             "現地設置・大判制作も対応（要相談）",
-            "雰囲気・動線・予算に合わせて提案",
+            "雰囲気・動線・ご予算に合わせて提案",
             "まずは用途と設置場所をヒアリングします"
           ],
           ctaLabel: "オーダーメイドを相談する",
           ctaHref: "#contact",
-          note: "※内容によりお受けできない場合があります。まずは要件をお聞かせください。"
+          ctaUse: "オーダーメイド相談",
+          note: "※内容によりご希望に添えない場合があります。まずは要件をお聞かせください。"
         }
       }
     };
@@ -515,7 +499,6 @@
     const nextBtn = document.getElementById("lgNext");
     const stage   = document.getElementById("lgStage");
 
-    // concept
     const conceptLead = document.getElementById("lgConceptLead");
     const conceptList = document.getElementById("lgConceptList");
     const conceptNote = document.getElementById("lgConceptNote");
@@ -551,10 +534,8 @@
       if(!g || !g.concept) return;
       const c = g.concept;
 
-      // lead
       if(conceptLead) conceptLead.textContent = c.lead || "";
 
-      // bullets
       if(conceptList){
         conceptList.innerHTML = "";
         (c.bullets || []).forEach(t=>{
@@ -564,13 +545,12 @@
         });
       }
 
-      // note
       if(conceptNote) conceptNote.textContent = c.note || "";
 
-      // CTA
       if(ctaEl){
         ctaEl.textContent = c.ctaLabel || "購入 / 相談へ";
-        ctaEl.setAttribute("href", c.ctaHref || "#");
+        ctaEl.setAttribute("href", c.ctaHref || "#contact");
+        ctaEl.dataset.use = c.ctaUse || "";
       }
     }
 
@@ -612,7 +592,6 @@
 
     // カードクリックで開く（a/button等を押した場合は開かない＝購入導線を守る）
     document.querySelectorAll("[data-gallery]").forEach(card=>{
-      card.style.cursor = "pointer";
       card.addEventListener("click", (e)=>{
         if(e.target.closest("a, button, input, textarea, select, summary")) return;
         openModal(card.getAttribute("data-gallery"), 0);
@@ -642,6 +621,24 @@
       if(Math.abs(dx) < 40) return;
       if(dx > 0) prev(); else next();
     }, {passive:true});
+
+    // === 「注文する / 相談する」ボタン：お問い合わせフォームの用途を自動選択 ===
+    const useSelect = document.getElementById("useSelect");
+    function prefillUse(useText){
+      if(!useSelect || !useText) return;
+      const opt = [...useSelect.options].find(o => o.text === useText);
+      if(opt) useSelect.value = opt.value;
+    }
+    document.addEventListener("click", (e)=>{
+      const el = e.target.closest("[data-use]");
+      if(!el) return;
+      prefillUse(el.dataset.use);
+      if(modal.classList.contains("is-open")) closeModal();
+      window.setTimeout(()=>{
+        document.getElementById("contact")?.scrollIntoView({behavior:"smooth", block:"start"});
+        document.querySelector('input[name="name"]')?.focus({preventScroll:true});
+      }, 0);
+    });
   })();
   </script>
 </body>
