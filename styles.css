@@ -396,7 +396,18 @@ input, select, textarea{
 }
 select{ padding-right:20px; }
 input:focus, select:focus, textarea:focus{ border-color:var(--shu); }
-textarea{ resize:vertical; }
+
+/* textarea only — full box instead of the underline used by input/select */
+textarea{
+  resize:vertical;
+  border:1px solid var(--line);
+  border-radius:4px;
+  padding:12px 14px;
+}
+textarea:focus{
+  border-color:var(--shu);
+  box-shadow:0 0 0 3px var(--shu-soft);
+}
 .form .btn{ margin-top:8px; }
 
 /* =========================================================
